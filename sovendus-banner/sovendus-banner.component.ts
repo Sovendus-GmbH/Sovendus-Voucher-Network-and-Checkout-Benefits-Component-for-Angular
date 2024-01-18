@@ -42,6 +42,7 @@ export class SovendusBannerComponent {
       orderCurrency: this.orderCurrency,
       usedCouponCode: this.usedCouponCode,
       iframeContainerId: `sovendus-integration-container-${this.sovDivId}`,
+      integrationType: "angular-1.0.1"
     });
     window.sovConsumer = {
       consumerSalutation: this.consumerSalutation,
