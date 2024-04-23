@@ -30,7 +30,7 @@ export class SovendusBannerComponent {
 
   ngOnInit() {
     window.sovDivId = 1 + (window.sovDivId || 0);
-    this.sovDivId = window.sovDivId
+    this.sovDivId = window.sovDivId;
     window.sovIframes = window.sovIframes || [];
     window.sovIframes.push({
       trafficSourceNumber: this.trafficSourceNumber,
@@ -42,7 +42,7 @@ export class SovendusBannerComponent {
       orderCurrency: this.orderCurrency,
       usedCouponCode: this.usedCouponCode,
       iframeContainerId: `sovendus-integration-container-${this.sovDivId}`,
-      integrationType: "angular-1.0.1"
+      integrationType: 'angular-1.0.3',
     });
     window.sovConsumer = {
       consumerSalutation: this.consumerSalutation,
