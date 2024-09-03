@@ -12,7 +12,7 @@ npm install --save sovendus-voucher-network-and-checkout-benefits-angular
 
 You can then use the component as with the following example on your order success / thank you page:
 
-[Information about the mandatory Parameters / Data](https://developer-hub.sovendus.com/Voucher-Network-Checkout-Benefits/Parameter)
+[Click here for detailed information on the parameters and which ones are required.](https://developer-hub.sovendus.com/Voucher-Network-Checkout-Benefits/Parameter)
 
 ```angular
 <app-sovendus-banner
