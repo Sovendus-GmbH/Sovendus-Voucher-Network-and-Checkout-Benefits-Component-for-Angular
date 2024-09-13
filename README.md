@@ -34,6 +34,7 @@ You can then use the component as with the following example on your order succe
   [consumerCountry]="'DE'"
   [consumerZipcode]="'45564'"
   [consumerYearOfBirth]="1991"
+  [consumerDateOfBirth]="'01.12.2020'"
 />
 ```
 

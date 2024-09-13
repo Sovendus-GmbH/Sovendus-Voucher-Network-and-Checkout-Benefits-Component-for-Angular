@@ -9,11 +9,11 @@ import { Component, Input, Output } from '@angular/core';
 export class SovendusBannerComponent {
   @Input() trafficSourceNumber!: number;
   @Input() trafficMediumNumber!: number;
-  @Input() sessionId!: string;
-  @Input() timestamp!: number;
-  @Input() orderId!: string;
-  @Input() orderValue!: number;
-  @Input() orderCurrency!: string;
+  @Input() sessionId: string | undefined;
+  @Input() timestamp: number | undefined;
+  @Input() orderId: string | undefined;
+  @Input() orderValue: number | undefined;
+  @Input() orderCurrency: string | undefined;
   @Input() usedCouponCode: string | undefined;
   @Input() consumerSalutation: string | undefined;
   @Input() consumerFirstName: string | undefined;
@@ -25,6 +25,7 @@ export class SovendusBannerComponent {
   @Input() consumerCountry: string | undefined;
   @Input() consumerZipcode: string | undefined;
   @Input() consumerYearOfBirth: number | undefined;
+  @Input() consumerDateOfBirth: string | undefined;
 
   @Output() sovDivId = 0;
 
@@ -42,7 +43,7 @@ export class SovendusBannerComponent {
       orderCurrency: this.orderCurrency,
       usedCouponCode: this.usedCouponCode,
       iframeContainerId: `sovendus-integration-container-${this.sovDivId}`,
-      integrationType: 'angular-1.0.3',
+      integrationType: 'angular-1.0.4',
     });
     window.sovConsumer = {
       consumerSalutation: this.consumerSalutation,
@@ -55,6 +56,7 @@ export class SovendusBannerComponent {
       consumerCountry: this.consumerCountry,
       consumerZipcode: this.consumerZipcode,
       consumerYearOfBirth: this.consumerYearOfBirth,
+      consumerDateOfBirth: this.consumerDateOfBirth,
     };
     const script = document.createElement('script');
     script.async = true;
