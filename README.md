@@ -28,6 +28,7 @@ You can then use the component as with the following example on your order succe
   [consumerFirstName]="'John'"
   [consumerLastName]="'Smith'"
   [consumerEmail]="'test@example.te'"
+  [consumerPhone]="'+49155123456789'"
   [consumerStreet]="'Street Name'"
   [consumerStreetNumber]="'2/4'"
   [consumerCity]="'ExampleCity'"

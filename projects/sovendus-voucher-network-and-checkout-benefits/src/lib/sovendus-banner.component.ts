@@ -19,6 +19,7 @@ export class SovendusBannerComponent {
   @Input() consumerFirstName: string | undefined;
   @Input() consumerLastName: string | undefined;
   @Input() consumerEmail: string | undefined;
+  @Input() consumerPhone: string | undefined;
   @Input() consumerStreet: string | undefined;
   @Input() consumerStreetNumber: string | undefined;
   @Input() consumerCity: string | undefined;
@@ -43,13 +44,14 @@ export class SovendusBannerComponent {
       orderCurrency: this.orderCurrency,
       usedCouponCode: this.usedCouponCode,
       iframeContainerId: `sovendus-integration-container-${this.sovDivId}`,
-      integrationType: 'angular-1.0.4',
+      integrationType: 'angular-1.0.5',
     });
     window.sovConsumer = {
       consumerSalutation: this.consumerSalutation,
       consumerFirstName: this.consumerFirstName,
       consumerLastName: this.consumerLastName,
       consumerEmail: this.consumerEmail,
+      consumerPhone: this.consumerPhone,
       consumerStreet: this.consumerStreet,
       consumerStreetNumber: this.consumerStreetNumber,
       consumerCity: this.consumerCity,
