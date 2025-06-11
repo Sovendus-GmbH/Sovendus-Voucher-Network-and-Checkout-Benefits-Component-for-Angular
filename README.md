@@ -1,8 +1,12 @@
 # Sovendus Voucher Network & Checkout Benefits Component for Angular
 
-## Disclaimer
-
-This plugin is released as open source under the GPL v3 license. We welcome bug reports and pull requests from the community. However, please note that the plugin is provided "as is" without any warranties or guarantees. It may not be compatible with all other plugins and could potentially cause issues with your store. We strongly recommend that you test the plugin thoroughly in a staging environment before deploying it to a live site. Furthermore, we do not promise future support or updates and reserve the right to discontinue support for the plugin at any time.
+> [!INFO]
+> **Disclaimer**
+> This plugin is released as open source under the GPL v3 license. We welcome bug reports and pull requests from the community.
+> However, please note that the plugin is provided "as is" without any warranties or guarantees.
+> It may not be compatible with all other plugins and could potentially cause issues with your store.
+> We strongly recommend that you test the plugin thoroughly in a staging environment before deploying it to a live site.
+> Furthermore, we do not promise future support or updates and reserve the right to discontinue support for the plugin at any time.
 
 ## Install through npmjs
 
