@@ -8,7 +8,7 @@
 > We strongly recommend that you test the plugin thoroughly in a staging environment before deploying it to a live site.
 > Furthermore, we do not promise future support or updates and reserve the right to discontinue support for the plugin at any time.
 
-## Install through npmjs
+## 📦 Install through npmjs
 
 Execute the following command to install it through npm:
 
@@ -16,7 +16,7 @@ Execute the following command to install it through npm:
 npm install --save sovendus-voucher-network-and-checkout-benefits-angular
 ```
 
-## Integrate into your Angular app
+## 🔗 Integrate into your Angular app
 
 You can then use the component as with the following example on your order success / thank you page:
 
@@ -47,9 +47,9 @@ You can then use the component as with the following example on your order succe
 />
 ```
 
-## Additional steps for Switzerland
+## 🇨🇭 Additional steps for Switzerland
 
-For Switzerland it is also required to add the following component on the home page / page where users will land coming from the Sovendus Voucher Network
+For Switzerland it is also required to add the following component on the home page / page where users will land coming from the Sovendus Voucher Network:
 
 ```angular
 <app-sovendus-landing-page />
